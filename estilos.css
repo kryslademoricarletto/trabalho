@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Joan & display=swap');
+
+:root{
+    --cor-fundo:#C983FF;
+    --cor-titulo:rgb(0, 0, 0);
+    --coor-parágrafo: #C580E8;
+    --cor-1:#05272e;
+    --cor-2: #E6D774;
+    --fonte-titulo:Joana;
+}
+body {
+    width: 700px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor-fundo);
+    opacity: 0,3;
+    }
+
+    h1{
+        font-family: var(--fonte-titulo);
+        color: var(--cor-titulo);
+        text-align: center;
+}
+
+p{
+    font-family: var(--fonte-2);
+    color: var(--cor-parágrafo);
+}
+
+img {
+    border: 3px solid;
+    border: var(--cor-1);
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: var(--cor-1);
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--fonte-2);
+    width: 50%;
+}
+
+thead {
+    background-color: var(--cor-titulo);
+    color:#FF5DDC;
+}
+
+tbody{
+    background-color: var(--cor-2);
+}
